@@ -16,21 +16,16 @@ options that you need to pass in.
 ### Commands
 #### Jobs
 Use `gobblin-admin.sh jobs --help` for more additional help and for a
-list of all options provided. 
+list of all options provided.
 
 Some common commands include:
 
-|Command
-|Result    |
+|Command|Result    |
 |-----------------------------------------------------------------|----------|
-|`gobblin-admin.sh jobs --list`                                   |Lists
-distinct job names|
-|`gobblin-admin.sh jobs --list --name JobName`                    |Lists
-the most recent executions of the given job name|
-|`gobblin-admin.sh jobs --details --id job_id`                    |Lists
-detailed information about the job execution with the given id|
-|`gobblin-admin.sh jobs --properties --<id|name> <job_id|JobName>`|Lists
-properties of the job|
+|`gobblin-admin.sh jobs --list`                                   |List distinct job names|
+|`gobblin-admin.sh jobs --list --name JobName`                    |List the most recent executions of the given job name|
+|`gobblin-admin.sh jobs --details --id job_id`                    |List detailed information about the job execution with the given id|
+|`gobblin-admin.sh jobs --properties --<id|name> <job_id|JobName>`|List properties of the job|
 
 #### Tasks
 The CLI does not yet support the `tasks` command.
